@@ -43,3 +43,9 @@ footer {
   color: #777;
   padding: 2rem 0;
 }
+input {
+    box-sizing: border-box;
+}
+textarea {
+    box-sizing: border-box;
+}
