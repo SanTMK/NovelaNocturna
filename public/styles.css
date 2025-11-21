@@ -1,17 +1,17 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f7f7f7;
+  background: #2c5530;
   color: #333;
 }
 header {
-  background: #222;
+  background: #ea9010;
   color: white;
   padding: 1.5rem;
   text-align: center;
 }
 nav {
-  background: #444;
+  background: #0d1f2d;
   padding: 0.5rem;
   text-align: center;
 }
@@ -24,16 +24,11 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-.container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
 article {
   margin-bottom: 2rem;
+  padding: 1rem;
+  background: #F2EFEA;
+  border-radius: 8px;
 }
 article h2 {
   margin-bottom: 0.5rem;
@@ -43,9 +38,22 @@ footer {
   color: #777;
   padding: 2rem 0;
 }
-input {
+input, textarea {
     box-sizing: border-box;
 }
-textarea {
-    box-sizing: border-box;
+.object_container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #8d818c;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.text_container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #F2EFEA;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
